@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  #result.prime {
+    color: #0f0;
+  }
+  
+  #result.not-prime {
+    color: #f00;
+  }
+  .container{
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #000; */
+    color: aliceblue;
+  }
+  .prime{
+    color: rgb(7, 15, 15);
+    background: #0f0;
+
+  }
+button{
+    background: #000;
+    color: aliceblue;
+    height: 40px;
+    width: auto;
+}
+input{
+    height: 40px;
+    width: auto;
+}
